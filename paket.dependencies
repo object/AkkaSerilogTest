@@ -1,0 +1,9 @@
+source https://nuget.org/api/v2
+
+nuget FAKE
+nuget SourceLink.Fake
+nuget Akka.Fsharp
+nuget Akka.Logger.Serilog
+nuget Newtonsoft.Json
+
+github haf/Topshelf.FSharp src/Topshelf.FSharp/FSharpApi.fs
